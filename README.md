@@ -22,3 +22,19 @@ NOTE: If the tabs are laid out vertically, the up and down arrow keys will move 
 Pressing the `Home` key, will move focus to the first tab in the `tablist`, and show its associated `tabpanel`.
 
 Pressing the `End` key, will move focus to the last tab in the `tablist`, and show its associated `tabpanel`.
+
+## Running locally
+
+To run Tabby locally, first run:
+
+```
+npm install
+```
+
+Once completed, you can start up the server using:
+
+```
+npm start
+```
+
+Point your browser at http://locahost:8080

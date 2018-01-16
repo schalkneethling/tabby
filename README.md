@@ -1,5 +1,3 @@
-/\*_ @format _/
-
 # Tabby
 
 ## A simple, accessible tabbed interface
@@ -18,6 +16,8 @@ Subsequently pressing the `tab` key will move focus to the associated `tabpanel`
 Pressing the right arrow key, after any tab has received focus, will move focus to the next tab in the `tablist`. If the last tab in the list is reached, focus is moved back to the first. Once focus is moved, the associated `tabpanel` will be activated and shown.
 
 Pressing the left arrow key, after any tab has received focus, will move focus to the previous tab in the `tablist`. If the first tab in the list is reached, focus is moved to the last tab in the list. Once focus is moved, the associated `tabpanel` will be activated and shown.
+
+NOTE: If the tabs are laid out vertically, the up and down arrow keys will move the tabs forward and back.
 
 Pressing the `Home` key, will move focus to the first tab in the `tablist`, and show its associated `tabpanel`.
 

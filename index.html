@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Tabby - Simple, Accessible Tabbed UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/tabby.css" media="screen" />
+  </head>
+  <body>
+      <section id="tab-container" class="tabs" role="main">
+          <div role="tablist">
+              <button role="tab" aria-selected="true" aria-controls="red-panel" id="red">
+                  Red
+              </button>
+              <button role="tab" aria-selected="false" aria-controls="green-panel" id="green" tabindex="-1">
+                  Green
+              </button>
+              <button role="tab" aria-selected="false" aria-controls="blue-panel" id="blue" tabindex="-1">
+                  Blue
+              </button>
+          </div>
+          <section tabindex="0" role="tabpanel" id="red-panel" aria-labelledby="red">
+            <header>
+                <h1>Among The Red Guns</h1>
+                <p><strong>Poem by Carl Sandburg</strong></p>
+            </header>
+<p><pre>Among the red guns,
+In the hearts of soldiers
+Running free blood In the long, long campaign:
+Dreams go on.
+
+Among the leather saddles,
+In the heads of soldiers
+Heavy in the wracks and kills
+Of all straight fighting:
+Dreams go on.
+
+Among the hot muzzles,
+In the hands of soldiers
+Brought from flesh-folds of women--
+Soft amid the blood and crying--
+In all your hearts and heads
+Among the guns and saddles and muzzles:
+
+Dreams,
+Dreams go on,
+Out of the dead on their backs,
+Broken and no use any more:
+Dreams of the way and the end go on.</pre></p>
+          </section>
+          <section tabindex="0" role="tabpanel" id="green-panel" aria-labelledby="green" class="hidden">
+              <header>
+                  <h1>The Echoing Green</h1>
+                  <p><strong>Poem by William Blake</strong></p>
+              </header>
+<p><pre>The sun does arise,
+And make happy the skies;
+The merry bells ring
+To welcome the spring;
+The skylark and thrush,
+The birds of the bush,
+Sing louder around
+To the bell's cheerful sound,
+While our sports shall be seen
+On the Echoing Green.
+
+Old John with white hair,
+Does laugh away care,
+Sitting under the oak,
+Among the old folk.
+They laugh at our play,
+And soon they all say:
+'Such, such were the joys
+When we all, girls and boys,
+In our youth time were seen
+On the Echoing Green.'
+
+Till the little ones, weary,
+No more can be merry;
+The sun does descend,
+And our sports have an end.
+Round the laps of their mothers
+Many sisters and brother,
+Like birds in their nest,
+Are ready for rest,
+And sport no more seen
+On the darkening Green.</pre></p>
+          </section>
+          <section tabindex="0" role="tabpanel" id="blue-panel" aria-labelledby="blue" class="hidden">
+              <header>
+                  <h1>Blue Winter</h1>
+                  <p><strong>Poem by Robert Francis</strong></p>
+              </header>
+<p><pre>Winter uses all the blues there are.
+One shade of blue for water, one for ice,
+Another blue for shadows over snow.
+The clear or cloudy sky uses blue twice-
+Both different blues. And hills row after row
+Are colored blue according to how far.
+You know the bluejay's double-blur device
+Shows best when there are no green leaves to show.
+And Sirius is a winterbluegreen star.</pre></p>
+          </section>
+      </section>
+      <script src="js/tabby.js"></script>
+  </body>
+</html>

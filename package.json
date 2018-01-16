@@ -1,0 +1,18 @@
+/** @format */
+
+{
+    "name": "tabby",
+    "version": "0.0.1",
+    "description": "A simple, bare bones, accessible tabbed interface",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start-server": "http-server ."
+    },
+    "keywords": ["css", "javascript", "a11y", "tabs", "html", "component"],
+    "author": "Schalk Neethling",
+    "license": "MIT",
+    "devDependencies": {
+        "http-server": "^0.11.1"
+    }
+}
